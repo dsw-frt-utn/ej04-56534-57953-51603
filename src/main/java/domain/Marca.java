@@ -7,12 +7,12 @@ package domain;
  *
  * @author tomas
  */
-public class Marcas {
+public class Marca {
     private String nombre;
     private String pais; // País de origen
 
-    // Constructor para inicializar los datos
-    public Marcas (String nombre, String pais) {
+   
+    public Marca (String nombre, String pais) {
         this.nombre = nombre;
         this.pais = pais;
     }

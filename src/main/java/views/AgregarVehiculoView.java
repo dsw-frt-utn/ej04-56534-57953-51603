@@ -8,7 +8,7 @@ package views;
  *
  * @author pjvv6
  */
-public class AgregarVehiculoView extends javax.swing.JFrame {
+public class AgregarVehiculoView extends javax.swing.JPanel {
 
     /**
      * Creates new form AgregarVehiculoView
@@ -214,7 +214,7 @@ public class AgregarVehiculoView extends javax.swing.JFrame {
 
         
             javax.swing.JOptionPane.showMessageDialog(this, "¡Vehículo guardado joya en la base!");
-            this.dispose();
+            //this.dispose();
         } catch (NumberFormatException e) {
        
             javax.swing.JOptionPane.showMessageDialog(this, "Che, revisá los campos numéricos (Año o Capacidad). ¡Pusiste texto!");

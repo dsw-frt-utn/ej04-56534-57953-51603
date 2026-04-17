@@ -76,8 +76,10 @@ public class MenuPrincipalView extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        AgregarVehiculoView agregar = new AgregarVehiculoView();
-        agregar.setVisible(true);   // TODO add your handling code here:
+        javax.swing.JFrame frame = new javax.swing.JFrame();
+        frame.setContentPane(new AgregarVehiculoView());
+        frame.pack();
+        frame.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

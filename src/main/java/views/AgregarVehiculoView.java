@@ -210,7 +210,7 @@ public class AgregarVehiculoView extends javax.swing.JPanel {
             }
 
           
-            data.Persistencia.vehiculos.add(nuevoVehiculo);
+            Controlador.agregarVehiculo(nuevoVehiculo);
 
         
             javax.swing.JOptionPane.showMessageDialog(this, "¡Vehículo guardado joya en la base!");
